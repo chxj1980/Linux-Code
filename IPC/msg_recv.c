@@ -21,4 +21,5 @@ int main() {
   msgrcv(id, &msg, 127, 200, 0);
   printf("msg.mtype: %ld\n", msg.mtype);
   printf("msg.mtext: %s\n", msg.mtext);
+  return 0;
 }

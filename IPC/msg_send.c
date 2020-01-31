@@ -25,4 +25,5 @@ int main() {
   msg.mtype = 200;
   strcpy(msg.mtext, "ni hao, shi jian");
   msgsnd(id, &msg, strlen(msg.mtext), 0);
+  return 0;
 }
